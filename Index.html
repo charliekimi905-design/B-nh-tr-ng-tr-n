@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bánh tráng trộn</title>
+
+<style>
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #fff5e6;
+}
+
+/* HEADER */
+.header {
+    text-align: center;
+    padding: 30px 15px;
+    background: linear-gradient(135deg, #ff9966, #ff5e62);
+    color: white;
+}
+
+.main-title {
+    font-size: 36px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 8px rgba(0,0,0,0.3);
+}
+
+.header p {
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+/* NAVBAR */
+.navbar {
+    background: linear-gradient(90deg, #ff6600, #ff3300, #ff9966);
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: white;
+    margin: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* CONTENT */
+.container {
+    padding: 15px;
+}
+
+.card {
+    background: white;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* TIÊU ĐỀ */
+.card h2 {
+    font-size: 22px;
+    color: #ff6600;
+    font-weight: bold;
+}
+
+/* ẢNH RESPONSIVE */
+img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 15px auto;
+    border-radius: 12px;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 15px;
+    background: linear-gradient(90deg, #ff6600, #ff3300);
+    color: white;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* RESPONSIVE CHO MÀN HÌNH LỚN */
+@media (min-width: 768px) {
+    .main-title {
+        font-size: 44px;
+    }
+
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+
+    img {
+        width: 70%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <h1 class="main-title">BÁNH TRÁNG TRỘN</h1>
+    <p>Món ăn vặt học đường của tuổi thơ</p>
+    <p><i>Bánh tráng trộn có gì mà khiến biết bao thế hệ thèm thuồng?</i></p>
+</div>
+
+<div class="navbar">
+    <a href="#gioithieu">Giới thiệu</a>
+    <a href="#vungmien">Vùng miền</a>
+    <a href="#nguongoc">Nguồn gốc</a>
+    <a href="#ynghia">Ý nghĩa</a>
+</div>
+
+<div class="container">
+
+<div class="card" id="gioithieu">
+<h2>1. Giới thiệu</h2>
+<p>
+Chẳng biết tự bao giờ, giữa muôn vàn loại đồ ăn vặt, “bánh tráng trộn” lại trở thành món ăn gắn bó và quen thuộc nhất đối với lứa tuổi học trò chúng em thời nay. Chúng cứ như những người bạn thú vị, luôn đem đến những cuộc vui bất ngờ cùng với hương vị đậm đà, khó cưỡng khiến học sinh chúng em không tài nào quên được. “Bánh tráng trộn” giờ đây đã được cải tiến thành khá nhiều phiên bản, loại trộn với khô bò, loại thì có thêm chả,….Song, tất cả vẫn giữ được hương vị đặc trưng và góp phần vào việc gìn giữ tinh hoa ẩm thực đường phố của Sài thành.
+</p>
+<img src="https://mia.vn/media/uploads/blog-du-lich/banh-trang-sai-gon-1-1702256109.jpg">
+</div>
+
+<div class="card" id="vungmien">
+<h2>2.1 Sự đa dạng vùng miền</h2>
+<p>
+Bánh tráng trộn là món ăn vặt "quốc dân" đầy biến hóa: nếu Sài Gòn gây ấn tượng bởi sự cầu kỳ với nước sốt bò đen đậm đà, ngọt vị; Hà Nội lại thanh nhẹ, khô ráo và chú trọng vị chua thơm của quất; thì miền Tây lại thiên về sự mộc mạc với các biến thể chấm sốt me hay trộn mắm tắc đặc trưng. Dù ở phiên bản nào, món ăn này vẫn luôn là sự giao thoa hài hòa giữa vị chua, cay, mặn, béo, tạo nên sức hút khó cưỡng đối với mọi tín đồ ẩm thực đường phố.
+</p>
+<img src="https://cdn.tgdd.vn/Files/2022/01/03/1408664/6-dia-diem-ban-banh-trang-quan-1-ngon-nhat-nhi-sai-gon-202201030058326473.jpg">
+</div>
+
+<div class="card" id="nguongoc">
+<h2>2.2 Nguồn gốc</h2>
+<p>
+Món ăn này có nguồn gốc từ bánh tráng phơi sương của Tây Ninh – một đặc sản địa phương quen thuộc. Vào khoảng cuối những năm 2000, học sinh – sinh viên đã sáng tạo bằng cách cắt nhỏ bánh tráng rồi trộn với nhiều nguyên liệu như muối tôm, sa tế, xoài, trứng cút, rau răm,… để tạo thành một món ăn vừa rẻ, vừa ngon, lại tiện lợi. Từ đó, bánh tráng trộn nhanh chóng trở thành món ăn vỉa hè được ưa chuộng rộng rãi và dần trở thành một phần đặc trưng trong văn hóa ẩm thực đường phố.
+</p>
+<img src="https://www.banhtrangmuoitayninh.com/thumbs/1366x800x1/upload/photo/sli-3532.png">
+</div>
+
+<div class="card" id="ynghia">
+<h2>3. Ý nghĩa</h2>
+<p>
+Qua một giai đoạn đầy sáng tạo và thú vị như thế, món bánh tráng trộn đã dần trở thành một món ăn biểu tượng cho sự sôi động cùng cởi mở. Nó len lỏi vào nhịp sống, tuổi thơ, vào những buổi tụ tập thường trực của các thanh thiếu niên hay những “cựu trẻ em” mà nay đã lớn. Vì thế nên trên vùng đất Sài Gòn nhộn nhịp này, dù ta đi đến bất cứ đâu, từ quận 1 cho đến quận 12 thì cũng sẽ có một tiệm hay một gánh hàng bánh tráng trộn nho nhỏ nào đó xuất hiện và góp mặt vào thú vui ăn uống của người trẻ ở Sài Gòn.
+</p>
+<img src="https://reviewvilla.vn/wp-content/uploads/2022/06/banh-trang-tron-sai-gon-1.jpg">
+<img src="https://dulich.tayninh.gov.vn/uploads/images/image-20250729074923-1.jpeg">
+</div>
+
+</div>
+
+<div class="footer">
+📌 Từ: Nhóm Bánh tráng trộn 12D02
+</div>
+
+</body>
+</html>
